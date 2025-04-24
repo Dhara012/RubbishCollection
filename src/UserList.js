@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './RubbishCollectionFinder.css'; 
 import axios from 'axios';
 
-function App() {
+function UserList() {
   const [postcode, setPostcode] = useState('');
   const [addresses, setAddresses] = useState([]);
   const [selectedUPRN, setSelectedUPRN] = useState('');
@@ -137,4 +137,4 @@ function App() {
   );
 }
 
-export default App;
+export default UserList;
